@@ -279,11 +279,11 @@ function updateHorarioExtra() {
         if (checkbox8am && !checkbox8amPA && diasSeleccionados >= 1 && diasSeleccionados <= 4) {
             extraSumarParticipante = 23 * (participantesHijos - 1) * diasSeleccionados;
         } else if (checkbox8am && checkbox8amPA && diasSeleccionados >= 1 && diasSeleccionados <= 4) {
-            extraSumarParticipante = 25 * (participantesHijos - 1) * diasSeleccionados;
+            extraSumarParticipante = 30 * (participantesHijos - 1) * diasSeleccionados;
         } else if (checkbox8am && !checkbox8amPA && diasSeleccionados >= 5) {
             extraSumarParticipante = 14 * (participantesHijos - 1) * diasSeleccionados;
         } else {
-            extraSumarParticipante = 15 * (participantesHijos - 1) * diasSeleccionados;
+            extraSumarParticipante = 18 * (participantesHijos - 1) * diasSeleccionados;
         }
     }
 
@@ -297,11 +297,11 @@ function updateHorarioExtra() {
     }
 
     if (checkbox8am && checkbox8amPA && diasSeleccionados >= 1 && diasSeleccionados <= 4) {
-        hExtra8am = ((50 * 1) * diasSeleccionados) + extraSumarParticipante;
+        hExtra8am = ((55 * 1) * diasSeleccionados) + extraSumarParticipante;
     }
     
     if (checkbox8am && checkbox8amPA && diasSeleccionados >= 5) {
-        hExtra8am = ((30 * 1) * diasSeleccionados) + extraSumarParticipante;
+        hExtra8am = ((31 * 1) * diasSeleccionados) + extraSumarParticipante;
     }
 
 
@@ -311,11 +311,11 @@ function updateHorarioExtra() {
         if (checkbox2pm && !checkbox2pmPA && diasSeleccionados >= 1 && diasSeleccionados <= 4) {
             extraSumarParticipante2pm = 23 * (participantesHijos - 1) * diasSeleccionados;
         } else if (checkbox2pm && checkbox2pmPA && diasSeleccionados >= 1 && diasSeleccionados <= 4) {
-            extraSumarParticipante2pm = 25 * (participantesHijos - 1) * diasSeleccionados;
+            extraSumarParticipante2pm = 30 * (participantesHijos - 1) * diasSeleccionados;
         } else if (checkbox2pm && !checkbox2pmPA && diasSeleccionados >= 5) {
             extraSumarParticipante2pm = 14 * (participantesHijos - 1) * diasSeleccionados;
         } else {
-            extraSumarParticipante2pm = 15 * (participantesHijos - 1) * diasSeleccionados;
+            extraSumarParticipante2pm = 18 * (participantesHijos - 1) * diasSeleccionados;
         }
     }
 
@@ -329,11 +329,11 @@ function updateHorarioExtra() {
     }
 
     if (checkbox2pm && checkbox2pmPA && diasSeleccionados >= 1 && diasSeleccionados <= 4) {
-        hExtra2pm = ((50 * 1) * diasSeleccionados) + extraSumarParticipante2pm;
+        hExtra2pm = ((55 * 1) * diasSeleccionados) + extraSumarParticipante2pm;
     }
     
     if (checkbox2pm && checkbox2pmPA && diasSeleccionados >= 5) {
-        hExtra2pm = ((30 * 1) * diasSeleccionados) + extraSumarParticipante2pm;
+        hExtra2pm = ((31 * 1) * diasSeleccionados) + extraSumarParticipante2pm;
     }
 
 // Calculo para las 3pm
@@ -342,11 +342,11 @@ function updateHorarioExtra() {
         if (checkbox3pm && !checkbox3pmPA && diasSeleccionados >= 1 && diasSeleccionados <= 4) {
             extraSumarParticipante3pm = 23 * (participantesHijos - 1) * diasSeleccionados;
         } else if (checkbox3pm && checkbox3pmPA && diasSeleccionados >= 1 && diasSeleccionados <= 4) {
-            extraSumarParticipante3pm = 25 * (participantesHijos - 1) * diasSeleccionados;
+            extraSumarParticipante3pm = 30 * (participantesHijos - 1) * diasSeleccionados;
         } else if (checkbox3pm && !checkbox3pmPA && diasSeleccionados >= 5) {
             extraSumarParticipante3pm = 14 * (participantesHijos - 1) * diasSeleccionados;
         } else {
-            extraSumarParticipante3pm = 15 * (participantesHijos - 1) * diasSeleccionados;
+            extraSumarParticipante3pm = 18 * (participantesHijos - 1) * diasSeleccionados;
         }
     }
 
@@ -360,11 +360,11 @@ function updateHorarioExtra() {
     }
 
     if (checkbox3pm && checkbox3pmPA && diasSeleccionados >= 1 && diasSeleccionados <= 4) {
-        hExtra3pm = ((50 * 1) * diasSeleccionados) + extraSumarParticipante3pm;
+        hExtra3pm = ((55 * 1) * diasSeleccionados) + extraSumarParticipante3pm;
     }
     
     if (checkbox3pm && checkbox3pmPA && diasSeleccionados >= 5) {
-        hExtra3pm = ((30 * 1) * diasSeleccionados) + extraSumarParticipante3pm;
+        hExtra3pm = ((31 * 1) * diasSeleccionados) + extraSumarParticipante3pm;
     }
 
     // Sumatoria de Horas Extras
