@@ -77,19 +77,19 @@ pricing_tables = """
             </tr>
             <tr>
                 <td>Días 1-4 (1pE)</td>
-                <td id="valor_1_4_1p">$305</td>
+                <td id="valor_1_4_1p">$315</td>
             </tr>
             <tr>
                 <td>Días 5-9 (1pE)</td>
-                <td id="valor_5_9_1p">$288</td>
+                <td id="valor_5_9_1p">$302</td>
             </tr>
             <tr>
                 <td>Días 10-14 (1pE)</td>
-                <td id="valor_10_14_1p">$273</td>
+                <td id="valor_10_14_1p">$287</td>
             </tr>
             <tr>
                 <td>Días 15-18 (1pE)</td>
-                <td id="valor_15_18_1p">$265</td>
+                <td id="valor_15_18_1p">$287</td>
             </tr>
         </table>
         
@@ -100,19 +100,19 @@ pricing_tables = """
             </tr>
             <tr>
                 <td>Días 1-4 (2pE)</td>
-                <td id="valor_1_4_2p">$285</td>
+                <td id="valor_1_4_2p">$295</td>
             </tr>
             <tr>
                 <td>Días 5-9 (2pE)</td>
-                <td id="valor_5_9_2p">$265</td>
+                <td id="valor_5_9_2p">$278</td>
             </tr>
             <tr>
                 <td>Días 10-14 (2pE)</td>
-                <td id="valor_10_14_2p">$251</td>
+                <td id="valor_10_14_2p">$264</td>
             </tr>
             <tr>
                 <td>Días 15-18 (2pE)</td>
-                <td id="valor_15_18_2p">$245</td>
+                <td id="valor_15_18_2p">$264</td>
             </tr>
         </table>
 
@@ -123,19 +123,19 @@ pricing_tables = """
             </tr>
             <tr>
                 <td>Días 1-4 (3pE)</td>
-                <td id="valor_1_4_3p">$260</td>
+                <td id="valor_1_4_3p">$268</td>
             </tr>
             <tr>
                 <td>Días 5-9 (3pE)</td>
-                <td id="valor_5_9_3p">$253</td>
+                <td id="valor_5_9_3p">$266</td>
             </tr>
             <tr>
                 <td>Días 10-14 (3pE)</td>
-                <td id="valor_10_14_3p">$241</td>
+                <td id="valor_10_14_3p">$253</td>
             </tr>
             <tr>
                 <td>Días 15-18 (3pE)</td>
-                <td id="valor_15_18_3p">$234</td>
+                <td id="valor_15_18_3p">$253</td>
             </tr>
         </table>
     </div>
@@ -150,19 +150,19 @@ pricing_tables_credit = """
             </tr>
             <tr>
                 <td>Días 1-4 (1pTC)</td>
-                <td id="valor_1_4_1p">$305</td>
+                <td id="valor_1_4_1p">$315</td>
             </tr>
             <tr>
                 <td>Días 5-9 (1pTC)</td>
-                <td id="valor_5_9_1p">$288</td>
+                <td id="valor_5_9_1p">$302</td>
             </tr>
             <tr>
                 <td>Días 10-14 (1pTC)</td>
-                <td id="valor_10_14_1p">$280</td>
+                <td id="valor_10_14_1p">$295</td>
             </tr>
             <tr>
                 <td>Días 15-18 (1pTC)</td>
-                <td id="valor_15_18_1p">$276</td>
+                <td id="valor_15_18_1p">$295</td>
             </tr>
         </table>
         
@@ -173,19 +173,19 @@ pricing_tables_credit = """
             </tr>
             <tr>
                 <td>Días 1-4 (2pTC)</td>
-                <td id="valor_1_4_2p">$285</td>
+                <td id="valor_1_4_2p">$295</td>
             </tr>
             <tr>
                 <td>Días 5-9 (2pTC)</td>
-                <td id="valor_5_9_2p">$265</td>
+                <td id="valor_5_9_2p">$278</td>
             </tr>
             <tr>
                 <td>Días 10-14 (2pTC)</td>
-                <td id="valor_10_14_2p">$262</td>
+                <td id="valor_10_14_2p">$275</td>
             </tr>
             <tr>
                 <td>Días 15-18 (2pTC)</td>
-                <td id="valor_15_18_2p">$260</td>
+                <td id="valor_15_18_2p">$275</td>
             </tr>
         </table>
 
@@ -196,19 +196,19 @@ pricing_tables_credit = """
             </tr>
             <tr>
                 <td>Días 1-4 (3pTC)</td>
-                <td id="valor_1_4_3p">$260</td>
+                <td id="valor_1_4_3p">$268</td>
             </tr>
             <tr>
                 <td>Días 5-9 (3pTC)</td>
-                <td id="valor_5_9_3p">$253</td>
+                <td id="valor_5_9_3p">$266</td>
             </tr>
             <tr>
                 <td>Días 10-14 (3pTC)</td>
-                <td id="valor_10_14_3p">$251</td>
+                <td id="valor_10_14_3p">$263</td>
             </tr>
             <tr>
                 <td>Días 15-18 (3pTC)</td>
-                <td id="valor_15_18_3p">$249</td>
+                <td id="valor_15_18_3p">$263</td>
              </tr>
         </table>
     </div>
@@ -238,7 +238,7 @@ pricing_tables_extra = """
             </tr>
             <tr>
                 <td>Días 1-4 1erP (SiPA)</td>
-                <td id="valor_1_4_1p_SiPA">$50</td>
+                <td id="valor_1_4_1p_SiPA">$55</td>
             </tr>
             <tr>
                 <td>Días 5-60 1erP (SiPA)</td>
@@ -268,11 +268,11 @@ pricing_tables_extra = """
             </tr>
             <tr>
                 <td>Días 1-4 PAdicional (SiPA)</td>
-                <td id="valor_1_4_add_SiPA">$25</td>
+                <td id="valor_1_4_add_SiPA">$30</td>
             </tr>
             <tr>
                 <td>Días 5-60 PAdicional (SiPA)</td>
-                <td id="valor_5_60_add_SiPA">$15</td>
+                <td id="valor_5_60_add_SiPA">$18</td>
             </tr>
         </table>
     </div>
