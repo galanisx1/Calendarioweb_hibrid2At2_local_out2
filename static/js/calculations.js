@@ -73,20 +73,20 @@ document.getElementById("abono").addEventListener("input", function () {
 
             if (diasSeleccionados >= 1 && diasSeleccionados <= 4) {
                 valor = displayMethod === "Efectivo" ?
-                    (participantesAux === 1 ? 305 : participantesAux  === 2 ? 285 : 260) :
-                    (participantesAux  === 1 ? 305 : participantesAux  === 2 ? 285 : 260);
+                    (participantesAux === 1 ? 315 : participantesAux  === 2 ? 295 : 268) :
+                    (participantesAux  === 1 ? 315 : participantesAux  === 2 ? 295 : 268);
             } else if (diasSeleccionados >= 5 && diasSeleccionados <= 9) {
                 valor = displayMethod === "Efectivo" ?
-                    (participantesAux  === 1 ? 288 : participantesAux  === 2 ? 265 : 253) :
-                    (participantesAux  === 1 ? 288 : participantesAux  === 2 ? 265 : 253);
+                    (participantesAux  === 1 ? 302 : participantesAux  === 2 ? 278 : 265) :
+                    (participantesAux  === 1 ? 302 : participantesAux  === 2 ? 278 : 265);
             } else if (diasSeleccionados >= 10 && diasSeleccionados <= 14) {
                 valor = displayMethod === "Efectivo" ?
-                    (participantesAux  === 1 ? 273 : participantesAux  === 2 ? 251 : 241) :
-                    (participantesAux  === 1 ? 280 : participantesAux  === 2 ? 262 : 251);
+                    (participantesAux  === 1 ? 287 : participantesAux  === 2 ? 264 : 253) :
+                    (participantesAux  === 1 ? 295: participantesAux  === 2 ? 275 : 263);
             } else if (diasSeleccionados >= 15 && diasSeleccionados <= 18) {
                 valor = displayMethod === "Efectivo" ?
-                    (participantesAux  === 1 ? 265 : participantesAux  === 2 ? 245 : 234) :
-                    (participantesAux  === 1 ? 276 : participantesAux  === 2 ? 260 : 249);
+                    (participantesAux  === 1 ? 287 : participantesAux  === 2 ? 264 : 253) :
+                    (participantesAux  === 1 ? 295 : participantesAux  === 2 ? 275 : 263);
             }
 
              
